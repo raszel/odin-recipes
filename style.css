@@ -1,0 +1,144 @@
+
+body {
+	background: rgba(204, 178, 153, .4);
+	font-size:100%;
+	color: #3d1e00
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: Arial, sans-serif;
+	color: #3d1e00
+}
+
+h1 {
+	text-align: center;
+	font-size: 2.33em;
+	font-weight: bolder;
+	color: #fff
+	}
+
+h2 {
+	font-size: 2em;
+	font-weight: bold;
+		}
+
+h3 {
+	font-size: 1.66em;
+	font-weight: normal;
+}
+
+h4 {
+	font-size: 0.9em;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+}
+
+h5 {
+	font-size: .8em
+	font-weight: normal;
+}
+
+hr {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	width: 90%;
+	border-color: rgba(61, 30, 0, .85);
+	}
+
+p, ul, ol {
+	font-family: Georgia, serif;
+	line-height: 1.5em;
+}
+
+#Content {
+	width: 90%;
+	margin:0 auto;
+}
+
+header, footer {
+	text-align: center;
+	text-transform: uppercase;
+	padding: 6px;
+	background: #228b22;
+	color: #fff;
+}
+
+header {
+	border-radius: 6px 6px 0 0;
+	border-bottom: 5px solid darkred;
+	}
+
+footer {
+	border-radius: 0 0 6px 6px;
+}
+
+header h1 {
+	font-size: 2.66em;
+}
+
+article {
+	background: #fff;
+	padding: 18px 32px;
+}
+
+article h1 {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 20px;
+}
+
+article section {
+	margin: 12px;
+}
+
+table {
+	width: 75%;
+	margin: auto;
+	font-family:sans-serif;
+	font-size:14px;
+}
+
+table, tr, td {
+	border:1px solid #696969;
+}
+
+table thead {
+	background: #4d2500;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+table tr td, table tr th {
+	padding: 6px;
+}
+
+p {
+	clear:both;
+}
+
+p img.cactus {
+	border: 1px solid #ccc;
+	border-radius: 14px;
+	height: 200px;
+	width: auto;
+	margin: 3px;
+	padding: 3px;
+	float: left;
+}
+
+p img.nopal {
+	border: 1px solid #ccc;
+	border-radius: 14px;
+	margin: 3px;
+	padding: 3px;
+	width: 50%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+/* TODO: Add more style! */
